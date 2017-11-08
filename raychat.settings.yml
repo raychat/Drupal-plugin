@@ -1,0 +1,4 @@
+raychat:
+  logo:
+    path: '/images/raychat-logo.svg'
+    use_default: false

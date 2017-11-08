@@ -1,0 +1,4 @@
+name: 'raychat'
+description: 'raychat module'
+type: module
+core: 8.x

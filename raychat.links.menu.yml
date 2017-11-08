@@ -1,0 +1,6 @@
+hello_world.link:
+  title: 'رایچت'
+  description: 'raychat module'
+#  parent: system.admin_structure
+  parent: system.admin
+  route_name: raychat.form

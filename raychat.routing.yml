@@ -1,0 +1,15 @@
+#raychat.content:
+#  path: '/admin/raychat/ok'
+#  defaults:
+#    _controller: '\Drupal\raychat\Controller\RaychatController::content'
+#    _title: 'raychat'
+#  requirements:
+#    _permission: 'access administration pages'
+
+raychat.form:
+  path: '/admin/raychat'
+  defaults:
+    _form: '\Drupal\raychat\Form\FormShow'
+    _title: 'raychat'
+  requirements:
+    _permission: 'access administration pages'

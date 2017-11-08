@@ -1,0 +1,7 @@
+<?php
+function raychat_preprocess_page(array &$attachments, $hook) {
+    if (!\Drupal::currentUser()->hasPermission('access contextual links')) {
+        return;
+    }
+    $attachments[] = require 'script.php';
+}
